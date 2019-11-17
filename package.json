@@ -1,0 +1,40 @@
+{
+  "name": "featherjs-nuxt-ssr",
+  "version": "1.0.0",
+  "description": "My striking Nuxt.js project",
+  "author": "thuongptitdev",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@feathersjs/authentication-client": "^4.3.11",
+    "@feathersjs/feathers": "^4.3.11",
+    "@feathersjs/rest-client": "^4.3.11",
+    "@feathersjs/socketio-client": "^4.3.11",
+    "@nuxtjs/auth": "^4.8.4",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "cookie-universal-nuxt": "^2.0.18",
+    "feathers-hooks-common": "^4.20.7",
+    "feathers-vuex": "^2.2.5",
+    "memorystorage": "^0.11.0",
+    "nuxt": "^2.0.0",
+    "nuxt-env": "^0.1.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  }
+}
