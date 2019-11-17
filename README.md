@@ -21,10 +21,14 @@ $ yarn generate
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
-#Desciption
+# Desciption
+
 Project is nuxt teamplate support ssr include featherjs client , feather-vuex, nuxt-auth, nuxt-env
+
 Porject use nuxt-auth instead auth function of feather-vuex
-#Before run project
+
+# Before run project
 Create featherjs app after create service users as default
+
 change API_ENDPOINT in .env file
 enjoy!!!
