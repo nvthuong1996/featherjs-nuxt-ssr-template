@@ -31,4 +31,5 @@ Porject use nuxt-auth instead auth function of feather-vuex
 Create featherjs app after create service users as default
 
 change API_ENDPOINT in .env file
+
 enjoy!!!
